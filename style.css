@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
 }
+p
+{
+    opacity: 0.8;
+}
 /* Banner Section */
 
 .navbar
@@ -98,12 +102,17 @@
     }
 }
 
-@media screen and (max-width:540px){
+@media screen and (max-width:992px){
     body
     {
         overflow-x: hidden;
     }
-    
+    .main-p
+    {
+        width: 80%;
+        margin: auto;
+        padding: 1rem 0 ;
+    }
     .main-head
     {
         text-align: center;
@@ -114,6 +123,11 @@
         font-size: 2rem ;
         font-weight: 700;
     }
+    .navbar-brand
+    {
+        font-size: 20px;
+    }
+    
 } 
 
 /* About Section */
@@ -124,7 +138,7 @@
 }
 .icons
 {
-    width: clamp(25px, 45px, 60px); 
+    width: clamp(25px, 40px, 60px); 
     
 }
 .about-section
@@ -169,4 +183,250 @@ h4
         {
             width: 18rem;
         }
+}
+
+
+/* Start Section */
+.start-section
+{
+    padding: 5rem 0;
+    
+}
+.start-section h2
+{
+    font-weight: 700;
+}
+.start-section h4
+{
+    font-weight: 600;
+}
+.start
+{
+    display: flex;
+    gap: 1rem;
+}
+.step-icon
+{
+    width: 40px;
+}
+.start p
+{
+    width: 25rem;
+}
+
+@media screen and (max-width:992px){
+    .start-section
+    {
+        text-align: center;
+    }
+    .start-section p
+    {
+        max-width: clamp(80%, 90%, 100%);
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+    }
+    .start
+    {
+        display: block;
+        padding: 1.5rem;
+    }
+    .my-auto
+    {
+        padding-top: 1rem;
+    }
+    
+   
+}
+
+
+
+
+/* Features Section */
+
+.feature-icon
+{
+    width:clamp(30px,45px,60px );
+}
+.feature-flex
+{
+    display: flex;
+    gap: 2rem;
+}
+
+.feature h1
+{
+    text-align: center;
+    padding-top: 1rem;
+}
+#feature-p
+{
+    width: 35rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3rem;
+}
+.p-feature
+{
+   width: 70%;
+}
+
+@media screen and (max-width:992px){
+    .feature-flex
+    {
+        display: block;
+    }
+    .features-section
+    {
+        text-align: center;
+    }
+    .features-section p
+    {
+        max-width: clamp(50%, 70%, 90%);
+        text-align: center;
+        margin: auto;
+        font-size: 16px;
+        padding-bottom: 2rem;
+    }
+    .features-section h4
+    {
+        font-weight: 500;
+    }
+}
+
+
+
+/* Download Section */
+
+.download-section
+{
+    padding: 0 6rem;
+}
+.download-section h3
+{
+    font-weight: 600;
+    font-size: clamp(25px,35px,50px );
+    padding:1rem ;
+}
+.download-section p
+{
+    min-width:clamp(30vw,40vw,50vw) ;
+}
+.download-buttons
+{
+    display: flex;
+    gap: 2rem;
+}
+
+@media screen and (max-width:992px){
+    .download-section
+    {
+        padding: 0 2rem;
+        text-align: center;
+    }
+    .download-section h3
+    {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .download-buttons
+    {
+        justify-content: center;
+    }  
+}
+@media screen and (max-width:992px) {
+    .download-row{
+        display:flex;
+        flex-flow: column;
+      }
+      .download-text{order:2;}
+      .download-img{order:1; padding: 0;}
+
+      .download-section h3
+      {
+        padding-top: 0;
+      }
+
+      
+}
+
+
+/* Customer-service Section */
+
+.Signup
+{
+    padding: .25rem 1.5rem;
+    font-weight: 700;
+}
+.customer-section p
+{
+    width: 80%;
+    padding: .75rem 0;
+}
+
+@media screen and (max-width:992px)
+{
+    .customer-section
+    {
+        text-align: center;
+    }
+    .customer-section p
+    {
+        
+        max-width:clamp(50vw,60vw,70vw) ;
+        text-align: center;
+        margin: auto;
+    } 
+    
+    .Signup
+    {
+        margin-bottom:2rem ;
+    }
+    #customer-img
+    {
+        padding-top: 2rem;
+    }
+}
+
+
+/* Partners Section */
+
+.partner-section
+{
+    padding: 2rem 1rem;
+}
+.brand-logos
+{
+    font-size: 20px;
+    
+}
+.logos
+{
+    font-size: 40px;
+}
+hr
+{
+    width: 20%;
+    margin:2rem auto ;  
+}
+@media screen and (max-width:768px)
+{
+    .partner-section p
+    {
+        width: 60vw;
+        margin: auto;
+    }
+    .brand-logos
+    {
+        padding: 1rem;
+    }
+    .logos
+    {
+        padding: 1rem;
+        text-align: left;
+    }
+    hr
+    {
+        margin:1rem auto ;
+    }
 }
