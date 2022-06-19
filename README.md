@@ -13,7 +13,7 @@
 </h1>
 </div>
 
-This is a simple webpage for a payment system using HTML, CSS and Bootstrap. The design is inspired from [@nola_tjan164](https://www.instagram.com/nola_tjan164/)
+This is a simple website for a payment system using HTML, CSS and Bootstrap. The design is inspired from [@nola_tjan164](https://www.instagram.com/nola_tjan164/)
 ## Table of contents
 
 - [Overview](#overview)
